@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/hotel-datepicker.css" />
+</head>
+<body>
+ <p>
+ <form id="estimate" name="estimate" method="post"> 
+  <input type="text" id="date_range" placeholder="select date range"/>
+ </form>
+
+ <script type="text/javascript" src="js/fecha.min.js"></script>
+ <script type="text/javascript" src="js/hotel-datepicker.min.js"></script>
+ <script>
+  var options = '';
+  var hdp = new HotelDatepicker(document.getElementById('date_range'), options);
+ </script>
+</body>
+</html>
